@@ -1,6 +1,8 @@
-## Machine Vision Container ##
+## Machine Vision Container: Docker, TensorFlow, TensorRT, PyTorch, OpenCV, CuPy, and PyCUDA ##
 
-Reproduce computer vision applications across environments while having containerized access to NVIDIA GPU's
+GPU Acclerated containerized computing for computer vision applications. 
+Containerization allows to reproduce across environments while having access to NVIDIA GPU's.
+Pascal and Turing arch supported only
  
 -----------------------------------------------------------
 
@@ -12,11 +14,7 @@ Reproduce computer vision applications across environments while having containe
 
 - CuPy:latest 
 
-- Tensorflow for GPU v1.13.1 
-
-- TensorBoard by TensorFlow
-
-- Python 3.6
+- Tensorflow for GPU v1.13.1 & TensorBoard
 
 - OpenCV v4.0.1 for GPU
 
@@ -26,12 +24,15 @@ Reproduce computer vision applications across environments while having containe
 
 - Hot Reloading: code updates will automatically update in container.
 
-- TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.
+- TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.\
+
+- Python 3.6
 
 -------------------------------------------------------------
 
 
 ### Before you begin (This might be optional) ###
+Link to nvidia-docker2 install: (Tutorial)[https://medium.com/@sh.tsang/docker-tutorial-5-nvidia-docker-2-0-installation-in-ubuntu-18-04-cb80f17cac65]
 
 You must install nvidia-docker2 and all it's deps first, assuming that is done, run:
 
