@@ -63,7 +63,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 ` docker run --rm -it --runtime=nvidia --user $(id -u):$(id -g) --group-add container_user --group-add sudo -v "${PWD}:/apps" -v $(pwd):/tf/notebooks  -p 8888:8888 -p 0.0.0.0:6006:6006  <container name> `
 
 
-### Step 2: Check to make sure GPU drivers and CUDA is running ###
+### Step 3: Check to make sure GPU drivers and CUDA is running ###
 
 - Exec into the container and check if your GPU is registering in the container and CUDA is working:
 
@@ -84,7 +84,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 ` nvcc -V `
 
 
-### Step 3: How to launch TensorBoard ###
+### Step 4: How to launch TensorBoard ###
 
 - Demonstrates the functionality of TensorBoard dashboard
 
@@ -114,7 +114,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 
 
 
-### Step 4: Run tests to prove container based GPU perf ###
+### Step 5: Run tests to prove container based GPU perf ###
 
 - Demonstrate GPU vs CPU performance:
 
