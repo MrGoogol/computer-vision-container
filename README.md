@@ -22,7 +22,7 @@ GPU Acclerated computing container for computer vision applications, that are re
 
 - Hot Reloading: code updates will automatically update in container.
 
-- TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.\
+- TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.
 
 - Python 3.6
 
