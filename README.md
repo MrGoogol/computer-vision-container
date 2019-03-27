@@ -4,6 +4,8 @@ GPU Acclerated computing container for computer vision applications, that are re
  
 -----------------------------------------------------------
 
+### Features ###
+
 - NVIDIA TensorRT inference accelerator and CUDA 10
 
 - PyTorch 1.0
