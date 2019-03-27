@@ -20,11 +20,11 @@ GPU Acclerated computing container for computer vision applications, that are re
 
 - cuDNN7.4.1.5 for deeep learning in CNN's
 
-- Hot Reloading: code updates will automatically update in container.
+- Hot Reloading: code updates will automatically update in container from /apps folder.
 
 - TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.
 
-- Python 3.6
+- Python 3.6.7
 
 - Only Pascal and Turing arch are supported 
 
@@ -104,7 +104,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 ` tensorboard --logdir=/tmp/tensorflow/logs/ `
 
 
-- cd over to /tf/notebooks/tf/apps/gpu_benchmarks and run:
+- cd over to /tf/notebooks/apps/gpu_benchmarks and run:
 
 
 ` python tensorboard.py `
@@ -118,7 +118,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 
 - Demonstrate GPU vs CPU performance:
 
-- cd over to /tf/notebooks/tf/apps/gpu_benchmarks and run:
+- cd over to /tf/notebooks/apps/gpu_benchmarks and run:
 
 - CPU Perf:
 
