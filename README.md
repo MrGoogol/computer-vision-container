@@ -1,8 +1,6 @@
 ## Machine Vision Container: Docker, TensorFlow, TensorRT, PyTorch, OpenCV, CuPy, and PyCUDA ##
 
-GPU Acclerated containerized computing for computer vision applications. 
-Containerization allows to reproduce across environments while having access to NVIDIA GPU's.
-Pascal and Turing arch supported only
+GPU Acclerated computing container for computer vision applications, that are reproducible across environments.
  
 -----------------------------------------------------------
 
@@ -28,10 +26,13 @@ Pascal and Turing arch supported only
 
 - Python 3.6
 
+- Only Pascal and Turing arch are supported 
+
 -------------------------------------------------------------
 
 
 ### Before you begin (This might be optional) ###
+
 Link to nvidia-docker2 install: [Tutorial](https://medium.com/@sh.tsang/docker-tutorial-5-nvidia-docker-2-0-installation-in-ubuntu-18-04-cb80f17cac65)
 
 You must install nvidia-docker2 and all it's deps first, assuming that is done, run:
