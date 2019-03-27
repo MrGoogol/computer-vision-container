@@ -32,7 +32,7 @@ Pascal and Turing arch supported only
 
 
 ### Before you begin (This might be optional) ###
-Link to nvidia-docker2 install: (Tutorial)[https://medium.com/@sh.tsang/docker-tutorial-5-nvidia-docker-2-0-installation-in-ubuntu-18-04-cb80f17cac65]
+Link to nvidia-docker2 install: [Tutorial](https://medium.com/@sh.tsang/docker-tutorial-5-nvidia-docker-2-0-installation-in-ubuntu-18-04-cb80f17cac65)
 
 You must install nvidia-docker2 and all it's deps first, assuming that is done, run:
 
