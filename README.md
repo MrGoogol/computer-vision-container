@@ -120,7 +120,7 @@ Run the image, mount the volumes for Jupyter and app folder for your fav IDE, an
 
 - Demonstrate GPU vs CPU performance:
 
-- cd over to /tf/notebooks/apps/gpu_benchmarks and run:
+- Exec into the container if you haven't, and cd over to /tf/notebooks/apps/gpu_benchmarks and run:
 
 - CPU Perf:
 
