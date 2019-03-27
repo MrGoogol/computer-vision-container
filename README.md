@@ -22,8 +22,6 @@ Reproduce computer vision applications across environments while having containe
 
 - Ubuntu 18.04 so you can 'nix your way through the cmd line!
 
-- CUDA 10.0
-
 - cuDNN7.4.1.5 for deeep learning in CNN's
 
 - Hot Reloading: code updates will automatically update in container.
